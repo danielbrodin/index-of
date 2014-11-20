@@ -1,0 +1,79 @@
+@import "icons/file-icons.less";
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* File list */
+.file-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.file-list-item {
+	font-family: helvetica;
+	font-size: 14px;
+	margin-bottom: 2px;
+
+	span {
+		margin-right: 15px;
+	}
+}
+
+.file-list-link {
+	text-decoration: none;
+	padding: 5px 15px;
+	color: #333;
+	display: inline-block;
+	background: #f7f7f7;
+	font-size: 16px;
+}
+
+.file-list-link:hover {
+	color: #f7f7f7;
+	background: #373a44;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+	list-style: none;
+	margin: 20px 0 20px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.breadcrumb-item {
+	float: left;
+	margin-right: 2px;
+
+	&:not(:last-child):after {
+		content: "/"; padding-left: 2px;
+	}
+
+	&:last-child {
+		.breadcrumb-link { text-decoration: none; }
+	}
+}
+
+.breadcrumb-link {
+	font-family: helvetica;
+	font-weight: bold;
+	color: #333;
+	padding: 5px 0;
+	display: inline-block;
+}
+
+
+/* Icons */
+.dir { font-weight: bold; }
+.icon-file-directory:before { content: "\f016"; }
+
+@media (max-width: 500px) {
+	.file-list-link {
+		display: block;
+		padding: 8px 15px;
+	}
+}

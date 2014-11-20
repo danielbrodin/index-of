@@ -1,0 +1,1326 @@
+/* @m<x> = .medium-<x>
+ * @l<x> = .light-<x> (<x> ligthened 15%)
+ * @d<x> = .dark-<x> (<x> darkened 15%)
+ */
+.light-red {
+  color: #c97071;
+}
+.medium-red {
+  color: #ac4142;
+}
+.dark-red {
+  color: #742c2d;
+}
+.light-green {
+  color: #b2c38b;
+}
+.medium-green {
+  color: #90a959;
+}
+.dark-green {
+  color: #66783e;
+}
+.light-yellow {
+  color: #fae0bc;
+}
+.medium-yellow {
+  color: #f4bf75;
+}
+.dark-yellow {
+  color: #ee9e2e;
+}
+.light-blue {
+  color: #9dc0ce;
+}
+.medium-blue {
+  color: #6a9fb5;
+}
+.dark-blue {
+  color: #46788d;
+}
+.light-maroon {
+  color: #be7953;
+}
+.medium-maroon {
+  color: #8f5536;
+}
+.dark-maroon {
+  color: #573421;
+}
+.light-purple {
+  color: #c7a4c0;
+}
+.medium-purple {
+  color: #aa759f;
+}
+.dark-purple {
+  color: #825078;
+}
+.light-orange {
+  color: #e1ad83;
+}
+.medium-orange {
+  color: #d28445;
+}
+.dark-orange {
+  color: #a35f27;
+}
+.light-cyan {
+  color: #a7d0c9;
+}
+.medium-cyan {
+  color: #75b5aa;
+}
+.dark-cyan {
+  color: #4d9085;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  font-style: normal;
+  src: url(/index-of/fonts/fontawesome-webfont.woff) format('woff');
+}
+@font-face {
+  font-family: "FontMfizz";
+  src: url(/index-of/fonts/font-mfizz.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url(/index-of/fonts/icomoon.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "devicons";
+  src: url(/index-of/fonts/devicons.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "fontcustom";
+  src: url(/index-of/fonts/docker.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Octicons Regular";
+  src: url(/index-of/fonts/octicons.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.octicons {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+}
+.checklist-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f076";
+}
+.code-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f05f";
+}
+.comment-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02b";
+}
+.dashboard-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f07d";
+}
+.database-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f096";
+}
+.gear-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+}
+.github-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f00a";
+}
+.package-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c4";
+}
+.ruby-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f047";
+}
+.secret-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f08c";
+}
+.terminal-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c8";
+}
+.xml-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+}
+.markdown-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c9";
+}
+.book-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f007";
+}
+.text-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f011";
+}
+.image-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f012";
+}
+.elixir-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+}
+.erlang-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+}
+.c-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+}
+.h-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+}
+.cpp-icon {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+}
+.objc-icon {
+  font-family: "Octicons Regular";
+  text-align: center;
+  content: "\f010";
+  font-size: medium;
+}
+.fa {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+}
+.coffee-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0f4";
+}
+.css3-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13c";
+}
+.html5-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+}
+.twitter-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f099";
+}
+.puppet-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0c3";
+}
+.smarty-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0eb";
+}
+.lua-icon {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f186";
+}
+.mf {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+}
+.js-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f148";
+  font-size: medium;
+}
+.node-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f14c";
+  font-size: medium;
+}
+.python-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f109";
+}
+.csharp-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f134";
+}
+.perl-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f117";
+}
+.php-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f14a";
+  font-size: medium;
+}
+.java-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f142";
+  font-size: medium;
+}
+.scala-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f115";
+  font-size: medium;
+}
+.haskell-icon {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f130";
+}
+.icomoon {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+}
+.grunt-icon {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e611";
+}
+.gulp-icon {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e610";
+}
+.hbs-mustache-icon {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e60f";
+}
+.npm-icon {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e616";
+}
+.sass-icon {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e603";
+}
+.devicons {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+}
+.laravel-icon {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e63f";
+}
+.bower-icon {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e64d";
+}
+.clojure-icon {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e668";
+}
+.composer-icon {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e683";
+  font-weight: bolder;
+  top: 4px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0.9px;
+  font-size: medium;
+}
+.go-icon {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e624";
+  font-weight: bolder;
+  top: 4px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0.85px;
+  -webkit-transform: scale(1.15, 1.1);
+  font-size: medium;
+}
+.swift-icon {
+  font-family: "devicons";
+  text-align: center;
+  top: 3px;
+  content: "\e655";
+  font-size: large;
+}
+.docker {
+  font-family: "fontcustom";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+}
+.docker-icon {
+  font-family: "fontcustom";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\f100";
+}
+.git-icon {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e602";
+  top: 4px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0.85px;
+  -webkit-transform: scale(1.15, 1.1);
+}
+.icon-file-text:before,
+.icon-file-directory:before,
+.icon-file-media:before,
+.icon-book:before {
+  text-align: center;
+}
+.icon-file-directory[data-name=".git"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e602";
+  top: 4px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0.85px;
+  -webkit-transform: scale(1.15, 1.1);
+}
+.icon-file-directory[data-name=".bundle"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c4";
+}
+.icon-book[data-name="README.md"]:before,
+.icon-book[data-name="Readme.md"]:before,
+.icon-book[data-name="readme.md"]:before {
+  color: #6a9fb5;
+}
+.icon-file-text:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f011";
+}
+.icon-file-text[data-name$="TODO"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f076";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".xml"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f05f";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".jl"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f05f";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".less"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13c";
+  color: #46788d;
+}
+.icon-file-text[data-name$=".css"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13c";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".styl"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13c";
+  color: #90a959;
+}
+.icon-file-text[data-name$=".slim"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f07d";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".skim"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f07d";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".json"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f096";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".cson"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f096";
+  color: #8f5536;
+}
+.icon-file-text[data-name$=".yml"]:before,
+.icon-file-text[data-name$=".yaml"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f096";
+  color: #c97071;
+}
+.icon-file-text[data-name$=".ex"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+  color: #825078;
+}
+.icon-file-text[data-name$=".exs"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+  color: #aa759f;
+}
+.icon-file-text[data-name$="mix.exs"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+  color: #c7a4c0;
+}
+.icon-file-text[data-name$="mix.ex"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+  color: #c7a4c0;
+}
+.icon-file-text[data-name$=".erl"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+  color: #ac4142;
+}
+.icon-file-text[data-name$=".beam"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: '\f010';
+  color: #742c2d;
+}
+.icon-file-text[data-name$=".html"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".shtml"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #75b5aa;
+}
+.icon-file-text[data-name$=".haml"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #c97071;
+}
+.icon-file-text[data-name$=".jade"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #90a959;
+}
+.icon-file-text[data-name$=".jsp"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".ctp"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".ejs"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #90a959;
+}
+.icon-file-text[data-name$=".hbs"]:before,
+.icon-file-text[data-name$=".handlebars"]:before,
+.icon-file-text[data-name$=".mustache"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e60f";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".tpl"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0eb";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".gitignore"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+}
+.icon-file-text[data-name$=".gitattributes"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+}
+.icon-file-text[data-name=".gitmodules"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+}
+.icon-file-text[data-name=".mailmap"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+}
+.icon-file-text[data-name$=".editorconfig"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".jshintrc"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".jscsrc"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".module"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".htaccess"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02f";
+  color: #ac4142;
+}
+.icon-file-text[data-name=".npmrc"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f14c";
+  font-size: medium;
+}
+.icon-file-text[data-name=".npmignore"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f14c";
+  font-size: medium;
+}
+.icon-file-text[data-name="npm-debug.log"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f14c";
+  font-size: medium;
+  color: #ac4142;
+}
+.icon-file-text[data-name=".bowerrc"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e64d";
+}
+.icon-file-text[data-name="bower.json"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e64d";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".sass"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e603";
+  color: #c7a4c0;
+}
+.icon-file-text[data-name$=".scss"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e603";
+  color: #825078;
+}
+.icon-file-text[data-name$=".php"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f14a";
+  font-size: medium;
+  color: #46788d;
+}
+.icon-file-text[data-name$=".blade.php"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e63f";
+  color: #825078;
+}
+.icon-file-text[data-name$=".py"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f109";
+  color: #ee9e2e;
+}
+.icon-file-text[data-name$="Gemfile"]:before,
+.icon-file-text[data-name$="Gemfile.lock"]:before,
+.icon-file-text[data-name$="Rakefile"]:before,
+.icon-file-text[data-name$=".gemspec"]:before,
+.icon-file-text[data-name=".ruby-gemset"]:before,
+.icon-file-text[data-name=".ruby-version"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f047";
+}
+.icon-file-text[data-name$=".rb"]:before,
+.icon-file-text[data-name$=".erb"]:before,
+.icon-file-text[data-name$=".opal"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f047";
+  color: #ac4142;
+}
+.icon-file-text[data-name$="_spec.rb"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f02b";
+  color: #90a959;
+}
+.icon-file-text[data-name$=".pp"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0c3";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".js"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f148";
+  font-size: medium;
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".jsx"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f148";
+  font-size: medium;
+  color: #90a959;
+}
+.icon-file-text[data-name$=".ts"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f148";
+  font-size: medium;
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".coffee"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0f4";
+  color: #8f5536;
+}
+.icon-file-text[data-name$=".litcoffee"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0f4";
+  color: #be7953;
+}
+.icon-file-text[data-name$=".js.erb"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f148";
+  font-size: medium;
+  color: #ac4142;
+}
+.icon-file-text[data-name$=".coffee.erb"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f0f4";
+  color: #ac4142;
+}
+.icon-file-text[data-name$=".html.erb"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f13b";
+  color: #ac4142;
+}
+.icon-file-text[data-name$=".pl"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f117";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".pm"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f117";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".t"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f117";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".java"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f142";
+  font-size: medium;
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".go"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e624";
+  font-weight: bolder;
+  top: 4px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0.85px;
+  -webkit-transform: scale(1.15, 1.1);
+  font-size: medium;
+  color: #6a9fb5;
+}
+.selected > .icon-file-text[data-name$=".go"]:before {
+  -webkit-text-stroke-width: 0px !important;
+}
+.icon-file-text[data-name$=".scala"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f115";
+  font-size: medium;
+  color: #90a959;
+}
+.icon-file-text[data-name$=".hs"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f130";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".c"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".h"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".cpp"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".hpp"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".ipp"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f010";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".m"]:before {
+  font-family: "Octicons Regular";
+  text-align: center;
+  content: "\f010";
+  font-size: medium;
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".mm"]:before {
+  font-family: "Octicons Regular";
+  text-align: center;
+  content: "\f010";
+  font-size: medium;
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".swift"]:before {
+  font-family: "devicons";
+  text-align: center;
+  top: 3px;
+  content: "\e655";
+  font-size: large;
+  color: #90a959;
+}
+.icon-file-text[data-name$=".cs"]:before {
+  font-family: "FontMfizz";
+  font-size: small;
+  text-align: center;
+  content: "\f134";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".vb"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f05f";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".sp"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e668";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".inc"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e668";
+  color: #90a959;
+}
+.icon-file-text[data-name$=".secret"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f08c";
+}
+.icon-file-text[data-name$=".mdown"]:before,
+.icon-file-text[data-name$=".markdown"]:before,
+.icon-file-text[data-name$=".mkd"]:before,
+.icon-file-text[data-name$=".mkdown"]:before,
+.icon-file-text[data-name$=".rmd"]:before,
+.icon-file-text[data-name$=".ron"]:before,
+.icon-file-text[data-name$=".md"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c9";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".txt"]:before {
+  color: #75b5aa;
+}
+.icon-file-text[data-name$=".sh"]:before,
+.icon-file-text[data-name$=".bash"]:before,
+.icon-file-text[data-name=".bashrc"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c8";
+  color: #aa759f;
+}
+.icon-file-text[data-name$=".zsh"]:before,
+.icon-file-text[data-name=".zshrc"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c8";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".fish"]:before,
+.icon-file-text[data-name=".fishrc"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c8";
+  color: #90a959;
+}
+.icon-file-text[data-name="composer.json"]:before {
+  font-family: "devicons";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\e683";
+  font-weight: bolder;
+  top: 4px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 0.9px;
+  font-size: medium;
+  color: #f4bf75;
+}
+.icon-file-text[data-name="GRUNTFILE.js"]:before,
+.icon-file-text[data-name="Gruntfile.js"]:before,
+.icon-file-text[data-name="gruntfile.js"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e611";
+  color: #f4bf75;
+}
+.icon-file-text[data-name="GRUNTFILE.coffee"]:before,
+.icon-file-text[data-name="Gruntfile.coffee"]:before,
+.icon-file-text[data-name="gruntfile.coffee"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e611";
+  color: #8f5536;
+}
+.icon-file-text[data-name="GULPFILE.js"]:before,
+.icon-file-text[data-name="Gulpfile.js"]:before,
+.icon-file-text[data-name="gulpfile.js"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e610";
+  color: #ac4142;
+}
+.icon-file-text[data-name="GULPFILE.coffee"]:before,
+.icon-file-text[data-name="Gulpfile.coffee"]:before,
+.icon-file-text[data-name="gulpfile.coffee"]:before {
+  font-family: "icomoon";
+  font-size: 18px;
+  text-align: center;
+  top: 3px;
+  content: "\e610";
+  color: #8f5536;
+}
+.icon-file-text[data-name="Dockerfile"]:before {
+  font-family: "fontcustom";
+  font-size: large;
+  text-align: center;
+  top: 3px;
+  content: "\f100";
+  color: #46788d;
+}
+.icon-file-text[data-name$=".xaml"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f05f";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".lua"]:before {
+  font-family: "FontAwesome";
+  font-size: small;
+  text-align: center;
+  content: "\f186";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".ps1"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f0c8";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name="README.md"]:before,
+.icon-file-text[data-name="Readme.md"]:before,
+.icon-file-text[data-name="readme.md"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f007";
+  color: #6a9fb5;
+}
+.icon-file-text[data-name$=".png"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f012";
+  color: #d28445;
+}
+.icon-file-text[data-name$=".gif"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f012";
+  color: #f4bf75;
+}
+.icon-file-text[data-name$=".jpg"]:before {
+  font-family: "Octicons Regular";
+  font-size: medium;
+  text-align: center;
+  content: "\f012";
+  color: #90a959;
+}
+body.file-icons-colourless .icon-file-text:before,
+body.file-icons-colourless .icon-file-directory:before,
+body.file-icons-colourless .icon-file-media:before,
+body.file-icons-colourless .icon-book:before,
+body.file-icons-colourless .pane ul.tab-bar li.tab .title:before {
+  color: inherit !important;
+}
+body.file-icons-force-show-icons .tree-view .entry > .header > .name:before,
+body.file-icons-force-show-icons .tree-view .entry > .name:before {
+  display: inherit;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* File list */
+.file-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.file-list-item {
+  font-family: helvetica;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.file-list-item span {
+  margin-right: 15px;
+}
+.file-list-link {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #333;
+  display: inline-block;
+  background: #f7f7f7;
+  font-size: 16px;
+}
+.file-list-link:hover {
+  color: #f7f7f7;
+  background: #373a44;
+}
+/* Breadcrumb */
+.breadcrumb {
+  list-style: none;
+  margin: 20px 0 20px;
+  padding: 0;
+  overflow: hidden;
+}
+.breadcrumb-item {
+  float: left;
+  margin-right: 2px;
+}
+.breadcrumb-item:not(:last-child):after {
+  content: "/";
+  padding-left: 2px;
+}
+.breadcrumb-item:last-child .breadcrumb-link {
+  text-decoration: none;
+}
+.breadcrumb-link {
+  font-family: helvetica;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 0;
+  display: inline-block;
+}
+/* Icons */
+.dir {
+  font-weight: bold;
+}
+.icon-file-directory:before {
+  content: "\f016";
+}
+@media (max-width: 500px) {
+  .file-list-link {
+    display: block;
+    padding: 8px 15px;
+  }
+}
